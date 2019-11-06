@@ -1,0 +1,8 @@
+{
+  "account": {
+    "address": "0x3c62aa7913bc303ee4b9c07df87b556b6770e3fc",
+    "privateKey": "e27cb51d1eb94ad42b8f196e341e082042639677df43fd7d1440c07b40e2a065"
+  },
+  "port": "wss://kovan.infura.io/ws/v3/ab1d2a604f814c688b4cbfbc9550fb1b",
+  "bridgeTokenAddress":"0xF02A6070d52EeaE75Ae8Fc8D42895870823c580D"
+}
