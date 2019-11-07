@@ -33,7 +33,7 @@
                                         <label class="form-label label slot-label" for="pvcExInput">Amount: </label>
                                         <input class="form-input" id="pvcExInput" type="number" v-model.number="toPriAmount">
                                         <button type="button" class="form-button alpha-button alpha-button-primary"
-                                                @click="tokenToPrivate">Exchange to consortium chain
+                                                @click="tokenToPrivate">To consortium chain
                                         </button>
                                     </div>
                                 </form>
@@ -50,7 +50,7 @@
                                         <label class="form-label label slot-label" for="pbcExInput">Amount: </label>
                                         <input class="form-input" id="pbcExInput" type="number" v-model.number="toPubAmount">
                                         <button type="button" class="form-button alpha-button alpha-button-primary"
-                                                @click="tokenToPublic">Exchange to public chain
+                                                @click="tokenToPublic">To public chain
                                         </button>
                                     </div>
                                 </form>

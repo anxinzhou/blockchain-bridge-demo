@@ -94,6 +94,7 @@
                             if (res.status === 0) {
                                 console.log(`reward successs,type: ${res.type}`)
                                 if (res.type === socketConstants.rewardType.erc20Token) {
+                                    this.$store.state.notifySuccess("get "+res.amount+" tokens as reward");
                                     this.tokenPrivateChain += res.amount;
                                 } else {
                                 }
