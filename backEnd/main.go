@@ -59,7 +59,7 @@ func main () {
 	r.HandleFunc("/{chain:public|private}/{user}/nonce",m.GetNonce).Methods("GET")
 	r.HandleFunc("/{chain:public|private}/chainId",m.GetChainId).Methods("GET")
 	http.ListenAndServe(
-		"0.0.0.0:4000", handlers.CORS(
+		"0.0.0.0:4002", handlers.CORS(
 			handlers.AllowedMethods([]string{"get", "options", "post", "put", "head"}),
 			handlers.AllowedOrigins([]string{"*"}),
 			handlers.AllowedHeaders([]string{"Content-Type"}),
